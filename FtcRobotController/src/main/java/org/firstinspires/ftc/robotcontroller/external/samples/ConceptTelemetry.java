@@ -27,7 +27,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.robotcontroller.external.samples;
 
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -48,11 +48,11 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
  * @see Telemetry
  */
 @TeleOp(name = "Concept: Telemetry", group = "Concept")
-//@Disabled
+@Disabled
 public class ConceptTelemetry extends LinearOpMode  {
     /** keeps track of the line of the poem which is to be emitted next */
     int poemLine = 0;
-//test three
+
     /** keeps track of how long it's been since we last emitted a line of poetry */
     ElapsedTime poemElapsed = new ElapsedTime();
 
